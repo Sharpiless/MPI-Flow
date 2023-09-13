@@ -46,6 +46,10 @@ pip install \
     focal_frequency_loss \
     tensorboard \
     transformers
+
+cd external/forward_warping
+bash compile.sh
+cd ../..
 ```
 ## Contact
 If you have any questions, please contact Yingping Liang (liangyingping@bit.edu.cn).
