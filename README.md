@@ -78,7 +78,7 @@ Please cite the following paper if this model helps your research:
 
     @inproceedings{liang2023mpi,
         author = {Liang, Yingping and Liu, Jiaming and Zhang, Debing and Ying, Fu},
-        title = {Single-View View Synthesis in the Wild with Learned Adaptive Multiplane Images},
+        title = {MPI-Flow: Learning Realistic Optical Flow with Multiplane Images},
         booktitle = {In the IEEE International Conference on Computer Vision (ICCV)},
         year={2023}
     }
