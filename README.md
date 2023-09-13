@@ -73,6 +73,8 @@ Then, you will see the result in `./outputs` like that:
 
 Checkpoints to reproduce our results in Table 1 can be downloaded in [Google Drive](https://drive.google.com/drive/folders/1q0UxlswSwZjLgLkEjUNmBuVi0LJfY_b7?usp=sharing).
 
+You can use the code in [RAFT](https://github.com/princeton-vl/RAFT) to evaluate/train the models.
+
 ## Contact
 If you have any questions, please contact Yingping Liang (liangyingping@bit.edu.cn).
 
