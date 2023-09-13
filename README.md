@@ -53,6 +53,14 @@ cd external/forward_warping
 bash compile.sh
 cd ../..
 ```
+
+## Usage
+
+Run：
+```
+python gen_3dphoto_dynamic.py
+```
+
 ## Contact
 If you have any questions, please contact Yingping Liang (liangyingping@bit.edu.cn).
 
