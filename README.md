@@ -1,5 +1,7 @@
 # [ICCV 2023] MPI-Flow: Learning Realistic Optical Flow with Multiplane Images
 
+[Paper](https://arxiv.org/abs/5110780) | [Checkpoints](https://drive.google.com/drive/folders/1q0UxlswSwZjLgLkEjUNmBuVi0LJfY_b7?usp=sharing)
+
 Code repository is under construction... 🏗️ 🚧 🔨
 
 ## News
@@ -10,8 +12,6 @@ Code repository is under construction... 🏗️ 🚧 🔨
 <img src="misc/framework_00.png" width="100%" >
 
 This is a PyTorch implementation of our paper.
-
-[Paper](https://arxiv.org/abs/5110780)
 
 **Abstract**: *The accuracy of learning-based optical flow estimation models heavily relies on the realism of the training datasets. Current approaches for generating such datasets either employ synthetic data or generate images with limited realism. However, the domain gap of these data with real-world scenes constrains the generalization of the trained model to real-world applications. To address this issue, we investigate generating realistic optical flow datasets from real-world images. Firstly, to generate highly realistic new images, we construct a layered depth representation, known as multiplane images (MPI), from single-view images. This allows us to generate novel view images that are highly realistic. To generate optical flow maps that correspond accurately to the new image, we calculate the optical flows of each plane using the camera matrix and plane depths. We then project these layered optical flows into the output optical flow map with volume rendering. Secondly, to ensure the realism of motion, we present an independent object motion module that can separate the camera and dynamic object motion in MPI. This module addresses the deficiency in MPI-based single-view methods, where optical flow is generated only by camera motion and does not account for any object movement. We additionally devise a depth-aware inpainting module to merge new images with dynamic objects and address unnatural motion occlusions. We show the superior performance of our method through extensive experiments on real-world datasets. Moreover, our approach achieves state-of-the-art performance in both unsupervised and supervised training of learning-based models.*
 
@@ -68,6 +68,10 @@ python gen_3dphoto_dynamic.py
 
 Then, you will see the result in `./outputs` like that:
 <img src="outputs\image.png">
+
+## Checkpoints
+
+Checkpoints to reproduce our results in Table 1 can be downloaded in [Google Drive](https://drive.google.com/drive/folders/1q0UxlswSwZjLgLkEjUNmBuVi0LJfY_b7?usp=sharing).
 
 ## Contact
 If you have any questions, please contact Yingping Liang (liangyingping@bit.edu.cn).
