@@ -2,6 +2,8 @@
 
 Code repository is under construction... 🏗️ 🚧 🔨
 
+## News
+* `2023/9/13` We release the code and the pretrained model for *MPI-Flow*. Use it to create optical flow from single in-the-wild 2D images!
 
 # AdaMPI
 
