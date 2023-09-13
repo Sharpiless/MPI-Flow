@@ -56,10 +56,18 @@ cd ../..
 
 ## Usage
 
-Run：
+The input to our MPI-Flow is a single in-the-wild image with its monocular depth estimation and main object mask. 
+You can use the [MiDaS](https://github.com/isl-org/MiDaS) model to obtain the estimated depth map and use the [Mask2Former](https://github.com/facebookresearch/Mask2Former) to obtain the object mask.
+
+We provide somne example inputs in `./images_kitti`, you can use the image, depth, and mask here to test our model. 
+Here is an example to run the code: 
+
 ```
 python gen_3dphoto_dynamic.py
 ```
+
+Then, you will see the result in `./outputs` like that:
+<img src="outputs\image.png">
 
 ## Contact
 If you have any questions, please contact Yingping Liang (liangyingping@bit.edu.cn).
