@@ -5,6 +5,7 @@
 Code repository is under construction... 🏗️ 🚧 🔨
 
 ## News
+* `2023/9/14` We release the [demo code](https://github.com/Sharpiless/MPI-Flow/releases/tag/v0.1-paddle) implemented with Paddlepaddle (Still small bugs when converting weights)!
 * `2023/9/13` We release the demo code for *MPI-Flow*. Use it to create optical flows from single 2D images!
 
 # MPI-Flow
