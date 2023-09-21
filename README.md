@@ -4,6 +4,10 @@
 
 Code repository is under construction... 🏗️ 🚧 🔨
 
+From left to right: 1) original image; 2) generated image; 3) generated optical flow; 4) optical flow predicted by RAFT (C+T)
+
+<img src="misc/image.gif" width="80%" >
+
 # MPI-Flow
 
 <img src="misc/framework_00.png" width="100%" >
