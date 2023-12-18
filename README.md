@@ -75,6 +75,10 @@ python gen_3dphoto_dynamic.py
 Then, you will see the result in `./outputs` like that:
 <img src="outputs\image.png">
 
+## Training online
+
+We have also released an online training version at [https://github.com/Sharpiless/Train-RAFT-from-single-view-images](https://github.com/Sharpiless/Train-RAFT-from-single-view-images).
+
 ## Checkpoints
 
 Checkpoints to reproduce our results in Table 1 can be downloaded in [Google Drive](https://drive.google.com/drive/folders/1q0UxlswSwZjLgLkEjUNmBuVi0LJfY_b7?usp=sharing).
