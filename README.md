@@ -5,7 +5,7 @@
 Code repository is under construction... 🏗️ 🚧 🔨
 
 ## Update
-- **2023.12.18:** Code for online training released at [https://github.com/Sharpiless/Train-RAFT-from-single-view-images](https://github.com/Sharpiless/Train-RAFT-from-single-view-images).
+- **2023.12.18:** Code for online training released at [Sharpiless/Train-RAFT-from-single-view-images](https://github.com/Sharpiless/Train-RAFT-from-single-view-images).
 - **2023.09.13:** Code released.
 
 
