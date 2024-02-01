@@ -94,6 +94,23 @@ We have also released an online training version at [https://github.com/Sharpile
 
 ## Checkpoints
 
+| Image Source | Method             | KITTI 12 |     | KITTI 15 |     |
+|--------------|--------------------|----------|-----|----------|-----|
+|              |                    | EPE ↓    | F1 ↓| EPE ↓    | F1 ↓|
+| COCO         | Depthstillation [1]| 1.74     | 6.81| 3.45     | 13.08|
+|              | RealFlow [12]      | N/A      | N/A | N/A      | N/A  |
+|              | MPI-Flow (ours)    | 1.36     | 4.91| 3.44     | 10.66|
+| DAVIS        | Depthstillation [1]| 1.81     | 6.89| 3.79     | 13.22|
+|              | RealFlow [12]      | 1.59     | 6.08| 3.55     | 12.52|
+|              | MPI-Flow (ours)    | 1.41     | 5.36| 3.32     | 10.47|
+| KITTI 15 Test| Depthstillation [1]| 1.77     | 5.97| 3.99     | 13.34|
+|              | RealFlow [12]      | 1.27     | 5.16| 2.43     | 8.86 |
+|              | MPI-Flow (ours)    | 1.24     | 4.51| 2.16     | 7.30 |
+| KITTI 15 Train| Depthstillation [1]| 1.67    | 5.71| {2.99}   | {9.94}|
+|               | RealFlow [12]     | 1.25     | 5.02| {2.17}   | {8.64}|
+|               | MPI-Flow (ours)   | 1.26     | 4.66| {1.88}   | {7.16}|
+
+
 Checkpoints to reproduce our results in Table 1 can be downloaded in [Google Drive](https://drive.google.com/drive/folders/1q0UxlswSwZjLgLkEjUNmBuVi0LJfY_b7?usp=sharing).
 
 You can use the code in [RAFT](https://github.com/princeton-vl/RAFT) to evaluate/train the models.
