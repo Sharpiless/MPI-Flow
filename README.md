@@ -9,7 +9,7 @@ Code repository is under construction... 🏗️ 🚧 🔨
 - **2023.09.13** - Code released.
 
 
-From left to right: 1) original image; 2) generated image; 3) generated optical flow; 4) optical flow predicted by RAFT (C+T)
+From left to right: 1) original image; 2) generated image; 3) generated optical flow; 4) predicted by RAFT (C+T)
 
 <img src="misc/image.gif" width="80%" >
 
