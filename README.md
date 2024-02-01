@@ -79,6 +79,21 @@ Then, you will see the result in `./outputs` like that:
 
 We have also released an online training version at [https://github.com/Sharpiless/Train-RAFT-from-single-view-images](https://github.com/Sharpiless/Train-RAFT-from-single-view-images).
 
+## Performance (Online Training)
+3.2w steps on COCO:
+| Dataset   | EPE        | F1      |
+| :-------: | :--------: | :-----: |
+| KITTI-15 (train) | 3.537468 | 11.694042 |
+| Sintel.C | 1.857986 | - |
+| Sintel.F | 3.250774 | - |
+
+32.0w steps on COCO:
+| Dataset   | EPE        | F1      |
+| :-------: | :--------: | :-----: |
+| KITTI-15 (train) | 3.586417 | 9.887916 |
+| Sintel.C | - | - |
+| Sintel.F | - | - |
+
 ## Checkpoints
 
 Checkpoints to reproduce our results in Table 1 can be downloaded in [Google Drive](https://drive.google.com/drive/folders/1q0UxlswSwZjLgLkEjUNmBuVi0LJfY_b7?usp=sharing).
