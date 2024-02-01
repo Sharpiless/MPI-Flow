@@ -77,7 +77,7 @@ Then, you will see the result in `./outputs` like that:
 
 We have also released an online training version at [https://github.com/Sharpiless/Train-RAFT-from-single-view-images](https://github.com/Sharpiless/Train-RAFT-from-single-view-images).
 
-## Performance (Online Training)
+## Performance (Online Training, single V100 GPU)
 3.2w steps on COCO:
 | Dataset   | EPE        | F1      |
 | :-------: | :--------: | :-----: |
