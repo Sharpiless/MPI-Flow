@@ -3,6 +3,7 @@
 [Paper](https://arxiv.org/abs/2309.06714) | [Checkpoints](https://drive.google.com/drive/folders/1q0UxlswSwZjLgLkEjUNmBuVi0LJfY_b7?usp=sharing) | [Project Page](https://sites.google.com/view/mpi-flow) | [My Home Page](https://sharpiless.github.io/)
 
 ## Update
+- **2024.05.01** - Update large-scale dataset generation [scripts](scripts).
 - **2023.12.18** - Code for online training released at [Sharpiless/Train-RAFT-from-single-view-images](https://github.com/Sharpiless/Train-RAFT-from-single-view-images).
 - **2023.09.13** - Code released.
 
@@ -63,8 +64,8 @@ Here is an example to run the code:
 python gen_3dphoto_dynamic.py
 ```
 
-Then, you will see the result in `./outputs` like that:
-<img src="outputs\image.png">
+Then, you will see the result like that:
+<img src="misc\train_image_2_000000_00_1.png">
 
 ## Training online
 
