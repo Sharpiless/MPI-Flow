@@ -6,14 +6,7 @@
 - **2023.12.18** - Code for online training released at [Sharpiless/Train-RAFT-from-single-view-images](https://github.com/Sharpiless/Train-RAFT-from-single-view-images).
 - **2023.09.13** - Code released.
 
-
-From left to right: 1) original image; 2) generated image; 3) generated optical flow; 4) predicted by RAFT (C+T)
-
-<img src="misc/image.gif" width="80%" >
-
 # MPI-Flow
-
-<img src="misc/framework_00.png" width="100%" >
 
 This is a PyTorch implementation of our paper.
 
